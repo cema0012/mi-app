@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reserva de Citas - Centro Odontológico</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <main class="container">
+    <h1 id="titulo-form">Reserva tu cita</h1>
+    <form id="form-cita">
+      <label>
+        Nombre completo
+        <input type="text" id="nombre" required />
+      </label>
+      <label>
+        Teléfono
+        <input type="tel" id="telefono" required />
+      </label>
+      <label>
+        Fecha
+        <input type="date" id="fecha" required />
+      </label>
+      <label>
+        Hora
+        <input type="time" id="hora" required />
+      </label>
+      <button type="submit" id="btn-reservar">Reservar</button>
+    </form>
+
+    <section id="resultado" class="hidden" aria-live="polite"></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
