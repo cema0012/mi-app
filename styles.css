@@ -1,0 +1,30 @@
+/* Cambiar color del título */
+h1 {
+  color: #1f2937; /* gris oscuro */
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Cambiar estilo del botón */
+button {
+  background-color: #ff6b6b; /* rojo coral */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e63946; /* un rojo más oscuro */
+}
+
+/* Cambiar estilo del formulario */
+form {
+  background-color: #f9fafb;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+

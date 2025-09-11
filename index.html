@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reserva de Citas - Centro Odontológico</title>
+  <!-- Importar CSS (está en la misma carpeta que el index) -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1 id="titulo-form">Reserva tu cita</h1>
+
+    <form id="form-cita" aria-label="Formulario de reserva">
+      <label for="nombre">Nombre completo</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="telefono">Teléfono</label>
+      <input type="tel" id="telefono" name="telefono" required />
+
+      <label for="fecha">Fecha</label>
+      <input type="date" id="fecha" name="fecha" required />
+
+      <label for="hora">Hora</label>
+      <input type="time" id="hora" name="hora" required />
+
+      <button type="submit" id="btn-reservar">Reservar cita</button>
+    </form>
+
+    <section id="resultado" aria-live="polite" style="margin-top:20px;"></section>
+  </main>
+
+  <!-- Importar JS (está en la misma carpeta que el index) -->
+  <script src="script.js" defer></script>
+</body>
+</html>
